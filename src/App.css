@@ -1,0 +1,600 @@
+
+video{
+  background-size: cover;
+  width: 100%;
+
+
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+h1{
+  font-size: 37px;
+   font-family: 'Orbitron', sans-serif;
+   color: whitesmoke;
+   background-color: black;
+   height: 700px;
+   padding-left: 320px;
+   padding-top: 250px;
+   letter-spacing: 1px;
+font-weight:530;
+
+
+ 
+}
+
+
+
+
+
+#info{
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+  
+  position: absolute;
+  margin-top: -600px;
+  left: 570px;
+  font-weight: 500;
+  
+}
+
+#info2{
+
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+  
+  position: absolute;
+  margin-top: -573px;
+  left: 430px;
+font-weight: 500;
+
+}
+
+#info3{
+
+  
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+  
+  position: absolute;
+  margin-top: -545px;
+  left: 360px;
+  font-weight:500;
+}
+
+
+#info4{
+
+  
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+  
+  position: absolute;
+  margin-top: -515px;
+  left: 680px;
+  font-weight: 500;
+}
+
+
+#input{
+  position: absolute;
+  
+  left: 520px;
+  width: 300px;
+  border-color: aliceblue;
+  margin-top: -440px;
+  background-color: black;
+  height: 25px;
+  border-radius: 3px;
+}
+
+.sub{
+
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  left: 860px;
+  margin-top: -445px;
+  border-color: rgb(0, 0, 0);
+  background-color: black;
+  color: rgb(255, 255, 255);
+ 
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  
+  
+}
+
+.ecom{
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(0, 0, 0);
+position: absolute;
+margin-top: -3500px;
+left: 80px;
+font-weight: 550;
+font-size: 23px;
+
+
+}
+
+#rm1{
+  position: absolute;
+  color: black;
+  margin-top: -3460px;
+  left: 125px;
+  color: #333;
+  font-weight:500;
+
+    
+
+ 
+}
+
+  
+   
+
+
+.well{
+
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+position: absolute;
+margin-top: -2650px;
+left: 80px;
+font-weight: 550;
+font-size: 23px;
+
+}
+
+#rm2{
+
+  position: absolute;
+  color: black;
+  margin-top: -2610px;
+  left: 100px;
+  color:white;
+  font-weight:500;
+
+
+
+}
+
+.arc{
+
+
+
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(0, 0, 0);
+position: absolute;
+margin-top: -1750px;
+left: 80px;
+font-weight: 550;
+font-size: 23px;
+
+
+
+
+}
+
+
+#rm3{
+
+  position: absolute;
+  color: black;
+  margin-top: -1715px;
+  left: 130px;
+ 
+  font-weight:500;
+
+
+
+}
+
+
+img{
+ 
+  position: absolute;
+margin-top: -4550px;
+
+width: 120px;
+left: 30px;
+}
+
+.menu{
+  position: fixed;
+  
+  left: 1400px;
+  width: 60px;
+}
+
+
+#header{
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+
+  
+  
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  position: fixed;
+  margin-top: -4570px;
+  font-weight:600;
+  left: 20px;
+  gap: 20px;
+  
+
+}
+
+
+
+
+
+header {
+  
+  padding: 10px;
+  position: relative;
+  z-index: 1000; 
+  transition: background-color 0.3s ease; 
+}
+
+header.sticky {
+  
+ position: fixed;
+ left: 700px;
+
+
+}
+
+
+
+.video1{
+  margin-top: -4px;
+}
+
+
+
+
+
+
+nav ul li {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav ul li::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff; 
+  transition: width 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #fff; 
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+
+
+
+
+
+.menu {
+ 
+  
+
+  text-decoration: none;
+
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.menu:hover {
+
+  transform: scale(1.3); 
+}
+
+
+
+
+
+
+img{
+   
+  max-width: 300px; 
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1) rotate(90deg); 
+}
+
+
+
+
+
+.ecom {
+ 
+  display: inline-block;
+  background: linear-gradient(90deg, #000000, #ffffff, #000000);
+  background-size: 200% 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; 
+  animation: gradientAnimation 3s infinite linear;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+
+
+
+
+.well{
+ 
+  display: inline-block;
+  background: linear-gradient(90deg, #000000, #ffffff, #000000);
+  background-size: 200% 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; 
+  animation: gradientAnimation 3s infinite linear;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+
+
+
+
+.arc{
+ 
+  display: inline-block;
+  background: linear-gradient(90deg, #000000, #ffffff, #000000);
+  background-size: 200% 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; 
+  animation: gradientAnimation 3s infinite linear;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+
+
+
+
+.read-more-box {
+  
+  position: relative;
+}
+
+.read-more-box h4 {
+ 
+ 
+
+ 
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgb(3, 209, 255), 0 0 5px #ffffff, 0 0 5px  rgb(3, 209, 255);
+  }
+  50% {
+    box-shadow: 0 0 5px rgb(3, 209, 255), 0 0 5px rgb(3, 209, 255), 0 0 5px rgb(3, 209, 255);
+  }
+  100% {
+    box-shadow: 0 0 5px  rgb(3, 209, 255), 0 0 5px #ffffff, 0 0 5px  rgb(3, 209, 255);
+  }
+}
+
+.read-more-box:hover h4 {
+  transform: scale(1.1);
+  border-radius: 0;
+  animation: glow 1s infinite;
+}
+
+
+.read-more-box:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 0 0px; 
+}
+
+
+
+
+
+
+
+
+.read-more-box2 {
+  
+  position: relative;
+}
+
+.read-more-box2 h4 {
+ 
+ 
+
+ 
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgb(3, 209, 255), 0 0 10px #ffffff, 0 0 10px  rgb(3, 209, 255);
+  }
+  50% {
+    box-shadow: 0 0 10px rgb(3, 209, 255),0 0  10px rgb(3, 209, 255), 0 0 10px rgb(3, 209, 255);
+  }
+  100% {
+    box-shadow: 0 0 10px  rgb(3, 209, 255), 0 0 10px #ffffff,  0 0 10px  rgb(3, 209, 255);
+  }
+}
+
+.read-more-box2:hover h4 {
+  transform: scale(1.1);
+  border-radius: 0;
+  animation: glow 1s infinite;
+}
+
+
+.read-more-box2:hover {
+  transform: translateY(-1px); 
+
+}
+
+
+
+
+
+
+
+
+.read-more-box3 {
+  
+  position: relative;
+}
+
+.read-more-box3 h4 {
+ 
+ 
+
+ 
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgb(3, 209, 255), 0 0 10px #ffffff, 0 0 10px  rgb(3, 209, 255);
+  }
+  50% {
+    box-shadow: 0 0 10px rgb(3, 209, 255),0 0  10px rgb(3, 209, 255), 0 0 10px rgb(3, 209, 255);
+  }
+  100% {
+    box-shadow: 0 0 10px  rgb(3, 209, 255), 0 0 10px #ffffff,  0 0 10px  rgb(3, 209, 255);
+  }
+}
+
+.read-more-box3:hover h4 {
+  transform: scale(1.1);
+  border-radius: 0;
+  animation: glow 1s infinite;
+}
+
+
+.read-more-box3:hover {
+  transform: translateY(-1px); 
+
+}
+
+
+
+
+
+.sub:hover {
+  background-color: red; 
+  color: #fff; 
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  transform: scale(0.9); 
+}
+
+
+#input {
+  color: whitesmoke; 
+}
+
+
+
+#input::placeholder {
+  color: #fffcfc; 
+}
+
+
+
+.sh:hover {
+  
+ 
+  transform: translateY(1px); 
+}
+
+.sh2:hover {
+  
+ 
+  transform: translateY(1px); 
+}
+
+
+.sh3:hover {
+  
+ 
+  transform: translateY(1px); 
+}
+
+
+
+.sh4:hover {
+  
+ 
+  transform: translateY(1px); 
+}
+
